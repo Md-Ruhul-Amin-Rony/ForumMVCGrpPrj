@@ -1,5 +1,5 @@
 # Anonymt forum
-Our thinking was to build one team project where we build a Forum. User may able to create their own topics (Ex. School, Sport, File, Enviornment). Under this topics user may able to create own posts under above the subject. Under the posts users may able to start their own conversation with comment and reply. They may have start give comment, reply or create new topics.
+Our thinking was to build one teamproject where we will build a Forum.In this forum User may able to create their own topics (Ex. School, Sport, File, Enviornment). Under this topics user may able to create own posts under above the subject. Under the posts users may able to start their own conversation with comments and replies. 
 
 ## Structure of Project:
 |   Tasks     |   Framwork    |  Effect  |
@@ -19,6 +19,16 @@ Our thinking was to build one team project where we build a Forum. User may able
 |School, Sports, Film, AdditionalTopice |:white_check_mark:     |
 |Thread, Comment, Reply | :white_check_mark:    |
 |ViewModel, PartialView|:white_check_mark:     |
+
+## Extra Features
+  - Home Page: Create new Topics.
+  - Topics Page: Allows you to create a new topic.
+
+  - ##### Client-Side Validation: Validates form data on the client side for a better user experience.
+  - ##### Server-Side Validation: Ensures data integrity and security.
+  - ##### TempData: Displays success and error messages.
+  - ##### Partial View: Utilizes a partial view to keep code DRY (Don't Repeat Yourself).
+  - ##### Toastr Alerts: Provides user-friendly alert messages.
 
 ## Sample of Code Structure - CommentsController - HTTPPost
  [HttpPost]
