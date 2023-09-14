@@ -1,0 +1,21 @@
+﻿﻿﻿# .NET Core build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*.psess
+*.zip
+*.sln.docstates
+
+# Other files
+*.log
+*.cache
+*.bak
+*.json
+*.nupkg
+*.snk
