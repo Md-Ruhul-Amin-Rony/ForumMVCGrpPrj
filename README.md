@@ -18,7 +18,7 @@ Our thinking was to build one team project where we build a Forum. User may able
 |-----|:--------:|
 |School, Sports, Film, AdditionalTopice |:white_check_mark:     |
 |Thread, Comment, Reply | :white_check_mark:    |
-|ViewModel, PartialView, CRUD|:white_check_mark:     |
+|ViewModel, PartialView|:white_check_mark:     |
 
 ## Sample of Code Structure - CommentsController - HTTPPost
  [HttpPost]
