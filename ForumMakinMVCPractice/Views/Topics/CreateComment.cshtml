@@ -1,0 +1,23 @@
+﻿
+@model ForumMakinMVCPractice.Models.TopicViewModel
+
+<h2>Create Comment</h2>
+
+<form asp-action="CreateComment" method="post">
+    <!-- Add form fields for comment properties like Text -->
+    <div class="form-group">
+        <label asp-for="Comment.Text" class="control-label">Comment:</label>
+        <textarea asp-for="Comment.Text" class="form-control"></textarea>
+        <span asp-validation-for="Comment.Text" class="text-danger"></span>
+    </div>
+    <!-- Add a hidden field for PostId -->
+    <input type="hidden" asp-for="Comment.PostId" value="@Model.Post.Id">
+    <div class="form-group">
+        <input type="submit" value="Create Comment" class="btn btn-primary" />
+    </div>
+</form>
+
+@if (Model.Post != null && Model.Post.Topic != null)
+{
+    <a asp-action="TopicPosts" asp-route-id="@Model.Post.Topic.Id" class="btn btn-primary">Back to Post</a>
+}

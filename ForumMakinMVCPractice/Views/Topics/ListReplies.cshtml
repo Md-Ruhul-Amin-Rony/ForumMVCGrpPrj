@@ -1,0 +1,11 @@
+﻿@model List<Reply>
+
+<h2>Replies</h2>
+
+<ul>
+    @foreach (var reply in Model)
+    {
+            <li>@reply.Text</li>
+            
+    }
+</ul>

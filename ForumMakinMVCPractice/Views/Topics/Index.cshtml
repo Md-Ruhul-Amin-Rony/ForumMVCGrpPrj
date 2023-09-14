@@ -1,0 +1,17 @@
+﻿
+
+@model List<TopicViewModel>
+
+<h1>Topics</h1>
+
+<ul>
+    @foreach (var topicViewModel in Model)
+    {
+        <li>
+            <a asp-action="TopicPosts" asp-route-id="@topicViewModel.Topic.Id">@topicViewModel.Topic.Title</a>
+        </li>
+    }
+</ul>
+
+<a asp-action="CreateTopic" class="btn btn-primary">Create New Topic</a>
+

@@ -1,0 +1,24 @@
+﻿
+
+@model ForumMakinMVCPractice.Models.TopicViewModel
+
+<h2>Create Reply</h2>
+
+<form asp-action="CreateReply" asp-route-commentId="@Model.Reply.CommentId" method="post">
+    <!-- Add form fields for reply properties like Text -->
+    <div class="form-group">
+        <label asp-for="Reply.Text" class="control-label">Reply:</label>
+        <textarea asp-for="Reply.Text" class="form-control"></textarea>
+        <span asp-validation-for="Reply.Text" class="text-danger"></span>
+    </div>
+    <!-- Add a hidden field for CommentId -->
+    <input type="hidden" asp-for="Reply.CommentId" value="@Model.Reply.CommentId">
+    <div class="form-group">
+        <input type="submit" value="Create Reply" class="btn btn-primary" />
+    </div>
+</form>
+
+@if (Model.Reply.Comment != null && Model.Reply.Comment.Post != null && Model.Reply.Comment.Post.TopicId != null)
+{
+        <a asp-action="TopicPosts" asp-route-id="@Model.Reply.Comment.Post.TopicId" class="btn btn-primary">Back to Post</a>
+}

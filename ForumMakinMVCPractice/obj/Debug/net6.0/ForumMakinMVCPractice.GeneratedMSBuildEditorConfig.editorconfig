@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ForumMakinMVCPractice
+build_property.RootNamespace = ForumMakinMVCPractice
+build_property.ProjectDir = C:\Users\adiar\OneDrive\Desktop\ForumMakinMVCPractice\ForumMakinMVCPractice\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\adiar\OneDrive\Desktop\ForumMakinMVCPractice\ForumMakinMVCPractice
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/CreateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXENyZWF0ZUNvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXENyZWF0ZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/CreateReply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXENyZWF0ZVJlcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/CreateTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXENyZWF0ZVRvcGljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/ListComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXExpc3RDb21tZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/ListReplies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXExpc3RSZXBsaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Topics/TopicPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXFRvcGljUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adiar/OneDrive/Desktop/ForumMakinMVCPractice/ForumMakinMVCPractice/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8jxxmge9xr

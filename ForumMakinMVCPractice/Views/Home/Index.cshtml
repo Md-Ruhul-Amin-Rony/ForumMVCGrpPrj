@@ -1,0 +1,22 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+*@
+
+
+@{
+    ViewData["Title"] = "Forum Home";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Welcome to Our Forum</h1>
+        <p>Join the discussion, share your thoughts, and explore a world of knowledge.</p>
+        <a class="btn btn-primary btn-lg" asp-controller="Topics" asp-action="CreateTopic">Create a New Topic</a>
+    </div>
+</div>

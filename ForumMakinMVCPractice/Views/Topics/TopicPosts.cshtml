@@ -1,0 +1,54 @@
+﻿
+
+
+@model TopicViewModel
+
+<h1>@Model.Topic.Title</h1>
+
+<ul>
+    @foreach (var post in Model.Topic.Posts)
+    {
+        <li>
+            @post.Title
+        </li>
+    }
+</ul>
+
+<a asp-action="CreatePost" asp-route-topicId="@Model.Topic.Id" class="btn btn-info">Create New Post</a>
+
+@if (Model.Topic.Posts != null)
+{
+    <h2>Comments:</h2>
+    @foreach (var post in Model.Topic.Posts)
+    {
+        <h3>@post.Title</h3>
+        <p>@post.Text</p>
+
+        <a asp-action="CreateComment" asp-route-postId="@post.Id" class="btn btn-primary">Create Comment</a>
+
+        @if (post.Comments != null)
+        {
+            <h4>Comments:</h4>
+            <ul>
+                @foreach (var comment in post.Comments)
+                {
+                    <li>@comment.Text</li>
+                    <a asp-action="CreateReply" asp-route-commentId="@comment.Id" class="btn btn-primary">Create Reply</a>
+
+                    @if (comment.Replies != null)
+                    {
+                        <h5>Replies:</h5>
+                        <ul>
+                            @foreach (var reply in comment.Replies)
+                            {
+                                <li>@reply.Text</li>
+                            }
+                        </ul>
+                    }
+                }
+            </ul>
+        }
+    }
+}
+
+<a asp-action="Index" class="btn btn-success">Back to Topics</a>
